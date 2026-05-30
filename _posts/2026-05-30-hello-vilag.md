@@ -1,6 +1,7 @@
 ---
 title: "Helló Világ"
 date: 2026-05-30
+comments: true
 tags: [Helló]
 ---
 
