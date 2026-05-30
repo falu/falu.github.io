@@ -6,6 +6,9 @@ description: Mindenhol jó, de legjobb a localhoston
 url: https://falu.github.io
 date_format: "%Y. %m. %d."
 
+# A jövőbeli posztokat is mindig kiadja
+future: true
+
 comments:
   provider: disqus
   disqus:
