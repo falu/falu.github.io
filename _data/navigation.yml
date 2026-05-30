@@ -1,0 +1,8 @@
+main:
+  - title: "Bejegyzések"
+    url: /
+  - title: "Címkék"
+    url: /tags/
+  - title: "Kapcsolat"
+    url: /kapcsolat/
+    
