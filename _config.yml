@@ -2,6 +2,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 locale: hu-HU
 title: Falu:Me
+logo: "/assets/images/icons8-house-with-a-garden-96.png"
 description: Mindenhol jó, de legjobb a localhoston
 subtitle: Mindenhol jó, de legjobb a localhoston
 url: https://falu.github.io
