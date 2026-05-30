@@ -1,0 +1,41 @@
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+locale: hu-HU
+title: Falu:Me
+description: Mindenhol jó, de legjobb a localhoston
+url: https://falu.github.io
+date_format: "%Y. %m. %d."
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Címke- és kategóriaoldalak generálása
+tag_archive:
+  type: liquid
+  path: /tags/
+# category_archive:
+#  type: liquid
+#  path: /categories/
+
+# Posztok alapbeállításai: layout, szerző-doboz, dátum, olvasási idő
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# Bloglista a főoldalon
+paginate: 5
+paginate_path: /page:num/
+
+# Oldalak
+include:
+  - _pages
