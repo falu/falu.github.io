@@ -2,7 +2,7 @@
 title: "Katonság"
 date: 2026-05-31
 comments: true
-tags: [Honvédség, Szombathely]
+tags: [Honvédség, Szombathely, Nosztalgia]
 ---
 
 Az volt a terv, hogy összeszedik a felsőfokú végzettséggel rendelkezőket és kiképző rajparancsnokot csinálnak belőlük, akiket visszadobnak a lakóhelyhez közeli laktanyába. Alap kiképzés egy hónap, rajparancsnoki képzés még egy hónap, mehetsz haza!
