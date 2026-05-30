@@ -6,6 +6,11 @@ description: Mindenhol jó, de legjobb a localhoston
 url: https://falu.github.io
 date_format: "%Y. %m. %d."
 
+comments:
+  provider: disqus
+  disqus:
+    shortname: falu
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
