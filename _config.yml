@@ -3,6 +3,7 @@ minimal_mistakes_skin: default
 locale: hu-HU
 title: Falu:Me
 description: Mindenhol jó, de legjobb a localhoston
+subtitle: Mindenhol jó, de legjobb a localhoston
 url: https://falu.github.io
 date_format: "%Y. %m. %d."
 
