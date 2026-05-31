@@ -4,17 +4,26 @@ layout: archive
 
 {{ content }}
 
-{% comment %} Egységes lista: pinneltek elöl, többi dátum szerint {% endcomment %}
-{% assign pinned = paginator.posts | where_exp: "p", "p.pinned == true" %}
-{% assign rest   = paginator.posts | where_exp: "p", "p.pinned != true" %}
-{% assign entries = pinned | concat: rest %}
+{% comment %} Kiemelt (pinned) bejegyzések doboza – a teljes blogból {% endcomment %}
+{% assign pinned = site.posts | where_exp: "p", "p.pinned == true" %}
+{% if pinned.size > 0 %}
+<div class="pinned-box">
+  <h3 class="pinned-box__title">📌 Kiemelt bejegyzések</h3>
+  <ul class="pinned-box__list">
+    {% for post in pinned %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
 
+{% comment %} Fő lista: a pinneltek kihagyásával {% endcomment %}
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {% for post in entries %}
+  {% for post in paginator.posts %}
+    {% unless post.pinned %}
     <div class="list__item">
       <article class="archive__item">
         <h2 class="archive__item-title">
-          {% if post.pinned %}📌 {% endif %}
           <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
         </h2>
         {% if post.header.teaser %}
@@ -29,6 +38,7 @@ layout: archive
         {% endif %}
       </article>
     </div>
+    {% endunless %}
   {% endfor %}
 </div>
 
