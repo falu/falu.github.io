@@ -89,3 +89,21 @@
   font-weight: 600;
 }
 </style>
+
+<script>
+window.addEventListener('load', function () {
+  var thread = document.getElementById('disqus_thread');
+  if (!thread) return;
+  // Megjegyezzük a görgetési pozíciót, és ha a Disqus elugrasztja, visszaállítjuk
+  var lockScroll = function () {
+    var y = window.scrollY;
+    var iv = setInterval(function () {
+      if (window.scrollY !== y) {
+        window.scrollTo(0, y);
+      }
+    }, 50);
+    setTimeout(function () { clearInterval(iv); }, 3000);
+  };
+  lockScroll();
+});
+</script>
