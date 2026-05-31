@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Címkék"
     url: /tags/
+  - title: "Az oldalról"
+    url: /about/    
   - title: "Kapcsolat"
     url: /kapcsolat/
     
