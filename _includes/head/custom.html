@@ -6,15 +6,20 @@
 <style>
 @media (max-width: 64em) {
   #main {
+    display: flex;
     flex-direction: column;
   }
   #main .sidebar {
-    order: 2;       /* sidebar a tartalom alá */
+    order: 2;
+    float: none;        /* a float felülírása, hogy a flex-order hasson */
+    width: 100%;
   }
+  #main .page,
   #main .archive {
-    order: 1;       /* posztlista előre */
+    order: 1;
+    float: none;
   }
-}  
+}
 </style>
 
 <!-- Kiemelt bejegyzések doboz -->
