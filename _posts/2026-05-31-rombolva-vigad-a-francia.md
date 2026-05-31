@@ -5,7 +5,7 @@ tags: [Franciaország, Politka, Foci, BL, Rombolás ]
 header:
   teaser: https://github.com/user-attachments/assets/ad795050-40a3-4587-9408-1c33c528b253
 comments: true
-published: false
+published: true
 ---
 
 A magyar sírva vígad, a francia tombol, rombol
