@@ -5,7 +5,6 @@ header:
   teaser: https://github.com/user-attachments/assets/76f58f24-a565-40dd-884e-b9fe309026fd
 comments: true
 tags: [Helló]
-pinned: true
 ---
 
 A régi oldal ezennel meg van szűnve, ne is keresd.
