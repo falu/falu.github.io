@@ -4,13 +4,14 @@ date: 2026-05-31
 comments: true
 header:
   teaser: /assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png
-  image: /assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png
 tags: [Honvédség, Szombathely, Nosztalgia]
 ---
 
 Az volt a terv, hogy összeszedik a felsőfokú végzettséggel rendelkezőket és kiképző rajparancsnokot csinálnak belőlük, akiket visszadobnak a lakóhelyhez közeli laktanyába. Alap kiképzés egy hónap, rajparancsnoki képzés még egy hónap, mehetsz haza!
 
 <!--more-->
+
+![cselló](/assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png)
 
 Ha jól tudom akkor ebből kb. semmi nem lett, vagy max 1–2 emberke került át máshová a kiképzés után, ugyanis a kilenc hónapot mind’ Szombathelyen nyomtuk le. A kiképzés után viszont tényleg szézdobáltak minket, de csak a laktanyán belül. Volt aki a kiképzésben maradt, volt akit átraktak az ellátóba, én a törzs századhoz kerültem, plusz beraktak a dísz szakaszba, mert pont 180 centi vagyok.
 
