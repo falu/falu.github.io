@@ -20,7 +20,6 @@ layout: archive
 {% comment %} Fő lista: a pinneltek kihagyásával {% endcomment %}
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% for post in paginator.posts %}
-    {% unless post.pinned %}
     <div class="list__item">
       <article class="archive__item">
         <h2 class="archive__item-title">
@@ -38,7 +37,6 @@ layout: archive
         {% endif %}
       </article>
     </div>
-    {% endunless %}
   {% endfor %}
 </div>
 
