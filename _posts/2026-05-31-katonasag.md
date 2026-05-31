@@ -5,7 +5,6 @@ comments: true
 tags: [Honvédség, Szombathely, Nosztalgia]
 header:
   teaser: /assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png
-# image: /assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png
 ---
 
 Az volt a terv, hogy összeszedik a felsőfokú végzettséggel rendelkezőket és kiképző rajparancsnokot csinálnak belőlük, akiket visszadobnak a lakóhelyhez közeli laktanyába. Alap kiképzés egy hónap, rajparancsnoki képzés még egy hónap, mehetsz haza!
