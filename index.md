@@ -1,5 +1,5 @@
 ---
-# layout: home
-layout: list
+layout: home
+entries_layout: list
 author_profile: true
 ---
