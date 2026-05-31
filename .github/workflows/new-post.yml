@@ -66,6 +66,7 @@ jobs:
             teaser: ${{ inputs.teaser }}
           comments: true
           published: false
+          pinned: false
           ---
 
           ${{ inputs.excerpt }}
