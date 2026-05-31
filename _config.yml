@@ -3,6 +3,18 @@ minimal_mistakes_skin: default
 locale: hu-HU
 title: Falu:Me
 logo: "/assets/images/icons8-house-with-a-garden-96.png"
+
+author:
+  name: "Falu"
+  location: "Pécs, Magyarország"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/falu"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/falu"
+
 url: https://falu.github.io
 date_format: "%Y. %m. %d."
 excerpt_separator: "<!--more-->"
