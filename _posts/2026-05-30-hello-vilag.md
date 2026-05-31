@@ -7,6 +7,8 @@ tags: [Helló]
 
 A régi oldal ezennel meg van szűnve, ne is keresd.
 
+<!--more-->
+
 Mostantól ide fogok írogatni ezt-azt.
 
 Sokkal könnyebb, egyszerűbb.
