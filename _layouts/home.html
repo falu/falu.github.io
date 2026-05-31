@@ -4,27 +4,31 @@ layout: archive
 
 {{ content }}
 
+{% comment %} Egységes lista: pinneltek elöl, többi dátum szerint {% endcomment %}
+{% assign pinned = paginator.posts | where: "pinned", true %}
+{% assign rest   = paginator.posts | where_exp: "p", "p.pinned != true" %}
+{% assign entries = pinned | concat: rest %}
+
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {% if paginator %}
-    {% assign postlist = paginator.posts %}
-  {% else %}
-    {% assign postlist = site.posts %}
-  {% endif %}
-
-  {% comment %} Először a kitűzött posztok (csak az első oldalon) {% endcomment %}
-  {% if paginator.page == 1 or paginator == nil %}
-    {% for post in site.posts %}
-      {% if post.pinned %}
-        {% include home-entry.html post=post pinned=true %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-
-  {% comment %} Aztán a többi, a kitűzöttek kihagyásával {% endcomment %}
-  {% for post in postlist %}
-    {% unless post.pinned %}
-      {% include home-entry.html post=post %}
-    {% endunless %}
+  {% for post in entries %}
+    <div class="list__item">
+      <article class="archive__item">
+        <h2 class="archive__item-title">
+          {% if post.pinned %}📌 {% endif %}
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        {% if post.header.teaser %}
+          <div class="archive__item-teaser">
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.header.teaser | relative_url }}" alt="">
+            </a>
+          </div>
+        {% endif %}
+        {% if post.excerpt %}
+          <p class="archive__item-excerpt">{{ post.excerpt | markdownify }}</p>
+        {% endif %}
+      </article>
+    </div>
   {% endfor %}
 </div>
 
