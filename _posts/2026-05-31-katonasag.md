@@ -11,6 +11,8 @@ tags: [Honvédség, Szombathely, Nosztalgia]
 
 Az volt a terv, hogy összeszedik a felsőfokú végzettséggel rendelkezőket és kiképző rajparancsnokot csinálnak belőlük, akiket visszadobnak a lakóhelyhez közeli laktanyába. Alap kiképzés egy hónap, rajparancsnoki képzés még egy hónap, mehetsz haza!
 
+<!--more-->
+
 Ha jól tudom akkor ebből kb. semmi nem lett, vagy max 1–2 emberke került át máshová a kiképzés után, ugyanis a kilenc hónapot mind’ Szombathelyen nyomtuk le. A kiképzés után viszont tényleg szézdobáltak minket, de csak a laktanyán belül. Volt aki a kiképzésben maradt, volt akit átraktak az ellátóba, én a törzs századhoz kerültem, plusz beraktak a dísz szakaszba, mert pont 180 centi vagyok.
 
 Elvileg én is a kiképzőkhöz kerültem volna, de a rajparancsnoki vizsga(!) előtt egy héttel fölondott és leszerelt a térképész tiszt. Rajtam kívül még nem tudtak mást leakasztani, aki konyít valamennyit a térképekhez.
