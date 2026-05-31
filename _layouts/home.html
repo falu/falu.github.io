@@ -14,14 +14,14 @@ layout: archive
   {% for post in postlist %}
     <div class="list__item">
       <article class="archive__item">
+        <h2 class="archive__item-title">
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
         {% if post.header.teaser %}
           <div class="archive__item-teaser">
             <img src="{{ post.header.teaser | relative_url }}" alt="">
           </div>
         {% endif %}
-        <h2 class="archive__item-title">
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-        </h2>
         {% if post.excerpt %}
           <p class="archive__item-excerpt">{{ post.excerpt | markdownify }}</p>
         {% endif %}
