@@ -1,5 +1,6 @@
 ---
 layout: home
-entries_layout: list
 author_profile: true
+entries_layout: list
+classes: wide
 ---
