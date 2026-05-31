@@ -2,6 +2,21 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/icons8-house-with-a-garden-32.png' | relative_url }}">
 <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
 
+<!-- #main -->
+<style>
+@media (max-width: 64em) {
+  #main {
+    flex-direction: column;
+  }
+  #main .sidebar {
+    order: 2;       /* sidebar a tartalom alá */
+  }
+  #main .archive {
+    order: 1;       /* posztlista előre */
+  }
+}  
+</style>
+
 <!-- Kiemelt bejegyzések doboz -->
 <style>
 .pinned-box {
@@ -32,6 +47,7 @@
 }
 </style>
 
+<!-- Disqus -->
 <style>
 .dsq-widget-title {
   font-size: 0.75em;
