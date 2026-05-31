@@ -4,6 +4,7 @@ date: 2026-05-31
 comments: true
 header:
   teaser: /assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png
+  image: /assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png
 tags: [Honvédség, Szombathely, Nosztalgia]
 ---
 
