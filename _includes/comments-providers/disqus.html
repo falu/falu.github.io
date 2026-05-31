@@ -1,0 +1,31 @@
+{% if site.comments.disqus.shortname %}
+  <div id="disqus_thread">
+    <button id="disqus-load-btn" class="btn btn--primary" type="button">
+      💬 Kommentek betöltése
+    </button>
+  </div>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('disqus-load-btn');
+      if (!btn) return;
+
+      btn.addEventListener('click', function () {
+        // Gomb eltüntetése
+        btn.style.display = 'none';
+
+        // Disqus konfiguráció
+        window.disqus_config = function () {
+          this.page.url = '{{ page.url | absolute_url }}';
+          this.page.identifier = '{{ page.id }}';
+        };
+
+        // Disqus embed script betöltése
+        var d = document, s = d.createElement('script');
+        s.src = 'https://{{ site.comments.disqus.shortname }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      });
+    })();
+  </script>
+{% endif %}
