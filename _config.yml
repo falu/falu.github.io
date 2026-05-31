@@ -7,6 +7,7 @@ description: Mindenhol jó, de legjobb a localhoston
 subtitle: Mindenhol jó, de legjobb a localhoston
 url: https://falu.github.io
 date_format: "%Y. %m. %d."
+excerpt_separator: "<!--more-->"
 
 # A jövőbeli posztokat is mindig kiadja
 future: true
