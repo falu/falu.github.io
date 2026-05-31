@@ -1,5 +1,5 @@
 ---
-title: "Katonság"
+title: "Katonaság"
 date: 2026-05-31
 comments: true
 header:
