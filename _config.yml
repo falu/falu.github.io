@@ -19,6 +19,10 @@ url: https://falu.github.io
 date_format: "%Y. %m. %d."
 excerpt_separator: "<!--more-->"
 
+# kereső
+search: true
+search_provider: lunr
+
 # A jövőbeli posztokat is mindig kiadja
 future: true
 
