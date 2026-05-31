@@ -65,7 +65,7 @@ jobs:
           header:
             teaser: ${{ inputs.teaser }}
           comments: true
-          paublished: false
+          published: false
           ---
 
           ${{ inputs.excerpt }}
