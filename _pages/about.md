@@ -9,8 +9,8 @@ Ezen az oldalon a saját ilyen-olyan tapasztalataimat véleményemet teszem köz
 
 Nem akar több lenni, jobb lenni, más lenni.
 
-Esetleg megjelenhetnek rajta olyan tartalmak, ami szókimondó vagy akár obszcén stílusúak. Ezekért semmilyen felelősséget nem vállalok. Akinek nem tetszik nem olvassa.
+Esetleg megjelenhetnek rajta olyan tartalmak, amik szókimondó vagy akár obszcén stílusúak is lehetnek. Ezekért semmilyen felelősséget nem vállalok. Akinek nem tetszik nem olvassa.
 
-Ha valakinek arra támadna kedve, akkor kommentelhet a posztok alatt a Disqus segítségével. A kommentekhez semmi közöm, azok nem az én véleményem, ami nem tetszik törölni fogom.
+Ha valakinek arra támadna kedve, akkor kommentelhet a posztok alatt. A kommentekhez semmi közöm, azok nem az én véleményem, ami nem tetszik törölni fogom.
 
 Ennyi.
