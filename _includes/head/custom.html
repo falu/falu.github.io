@@ -91,19 +91,36 @@
 </style>
 
 <script>
-window.addEventListener('load', function () {
-  var thread = document.getElementById('disqus_thread');
-  if (!thread) return;
-  // Megjegyezzük a görgetési pozíciót, és ha a Disqus elugrasztja, visszaállítjuk
-  var lockScroll = function () {
-    var y = window.scrollY;
-    var iv = setInterval(function () {
-      if (window.scrollY !== y) {
-        window.scrollTo(0, y);
+(function () {
+  // A Disqus betöltéskor a fókuszált beviteli mezőre görget.
+  // Ezt megakadályozzuk: amíg a Disqus be nem töltött, elnyeljük az
+  // automatikus görgetést, és visszaállítjuk az eredeti pozíciót.
+  var settle = false;
+
+  function lockPosition() {
+    if (settle) return;
+    var target = window.scrollY;
+    var handler = function () {
+      if (!settle && Math.abs(window.scrollY - target) > 2) {
+        window.scrollTo({ top: target, behavior: 'instant' });
       }
-    }, 50);
-    setTimeout(function () { clearInterval(iv); }, 3000);
-  };
-  lockScroll();
-});
+    };
+    window.addEventListener('scroll', handler, { passive: false });
+
+    // 4 mp után feloldjuk, hogy a normál görgetés zavartalan legyen
+    setTimeout(function () {
+      settle = true;
+      window.removeEventListener('scroll', handler);
+    }, 4000);
+  }
+
+  if (document.getElementById('disqus_thread') ||
+      document.querySelector('.page__comments')) {
+    if (document.readyState === 'complete') {
+      lockPosition();
+    } else {
+      window.addEventListener('load', lockPosition);
+    }
+  }
+})();
 </script>
