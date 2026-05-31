@@ -1,5 +1,5 @@
 ---
-title: "Abszolut filmszínház"
+title: "Abszolút filmszínház"
 date: 2026-05-31
 tags: [Politika]
 comments: true
@@ -24,4 +24,4 @@ Igen, lesz ára, következménye, de ez még a kisebbik rossz. A Fidesz közben 
 
 Idő kell mindenhez és türelem. Ezt a filmszínházasdit nem lehet a végtelenségig játszani, nem lehet büntetlenül úgy csinálni, mintha kormányoznának.
 
-Na mindegy is. Egy pozitív dolog legalább van a dologban: sikerült eltakarítani a baloldalt a parlamentből. 36 évbe telt, de a magyarok végül beismerték, hogy semmi szükség rájuk. Micsoda? Hogy a tiszások baloldaliak lennének? Igaz van köztük pár baloldalhoz köthető arc, de ezek olyanok, hogy oda dörgölőznek, ahonnan hasznot remélnek. Azt sem lehet mondani rájuk, hogy jobboldali, konzervatív alakulat lenne. Leginkább valami centrista, liberális mosléknak ez az egész.
+Na mindegy is. Egy pozitív dolog legalább van a dologban: sikerült eltakarítani a baloldalt a parlamentből. 36 évbe telt, de a magyarok végül beismerték, hogy semmi szükség rájuk. Micsoda? Hogy a tiszások baloldaliak lennének? Igaz van köztük pár baloldalhoz köthető arc, de ezek olyanok, hogy oda dörgölőznek, ahonnan hasznot remélnek. Azt sem lehet mondani rájuk, hogy jobboldali, konzervatív alakulat lenne. Leginkább valami centrista, liberális mosléknak tűnik ez az egész.
