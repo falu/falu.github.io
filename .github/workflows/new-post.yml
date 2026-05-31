@@ -1,0 +1,87 @@
+name: Új poszt vázlat
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "Poszt címe"
+        required: true
+        type: string
+      tags:
+        description: "Címkék (vesszővel elválasztva)"
+        required: false
+        default: ""
+        type: string
+      teaser:
+        description: "Teaser kép útvonala"
+        required: false
+        default: "/assets/images/placeholder.png"
+        type: string
+      excerpt:
+        description: "Bevezető szöveg"
+        required: false
+        default: "Bevezető szöveg ide..."
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  create-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repó letöltése
+        uses: actions/checkout@v4
+
+      - name: Poszt fájl létrehozása
+        run: |
+          # Magyar időzóna szerinti dátum
+          export TZ="Europe/Budapest"
+          DATE_FILE=$(date +'%Y-%m-%d')
+          DATE_FM=$(date +'%Y-%m-%d %H:%M:%S %z')
+
+          # Slug a címből: kisbetű, ékezetek eltávolítása, szóköz -> kötőjel
+          TITLE="${{ inputs.title }}"
+          SLUG=$(echo "$TITLE" \
+            | iconv -f utf-8 -t ascii//TRANSLIT 2>/dev/null \
+            | tr '[:upper:]' '[:lower:]' \
+            | sed -e 's/[^a-z0-9]\+/-/g' -e 's/^-//' -e 's/-$//')
+          # Ha a slug üres maradna, használjunk fallbacket
+          if [ -z "$SLUG" ]; then SLUG="poszt"; fi
+
+          FILE="_posts/${DATE_FILE}-${SLUG}.md"
+
+          # Kategóriák és címkék YAML-listává alakítása
+          CATEGORIES=$(echo "${{ inputs.categories }}" | sed 's/ *, */, /g')
+          TAGS=$(echo "${{ inputs.tags }}" | sed 's/ *, */, /g')
+
+          mkdir -p _posts
+
+          cat > "$FILE" << EOF
+          ---
+          title: "${TITLE}"
+          date: ${DATE_FM}
+          tags: [${TAGS}]
+          header:
+            teaser: ${{ inputs.teaser }}
+          comments: true
+          paublished: false
+          ---
+
+          ${{ inputs.excerpt }}
+
+          <!--more-->
+
+          A poszt törzse...
+          EOF
+
+          echo "Létrehozott fájl: $FILE"
+          cat "$FILE"
+
+      - name: Commit és push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/
+          git commit -m "Új poszt vázlat: ${{ inputs.title }}"
+          git push
