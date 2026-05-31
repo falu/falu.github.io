@@ -4,7 +4,8 @@ date: 2026-05-31
 comments: true
 header:
   teaser: /assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png
-tags: [Honvédség, Szombathely, Nosztalgia]  
+tags: [Honvédség, Szombathely, Nosztalgia]
+excerpt: '<img src="/assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png"><br>Az volt a terv, hogy összeszedik a felsőfokú végzettséggel rendelkezőket...'
 ---
 
 ![cselló](/assets/images/600546706-f0574cc9-fc4d-49bb-a282-d1610e13f4ad.png)
