@@ -1,0 +1,31 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% if paginator %}
+    {% assign postlist = paginator.posts %}
+  {% else %}
+    {% assign postlist = site.posts %}
+  {% endif %}
+
+  {% for post in postlist %}
+    <div class="list__item">
+      <article class="archive__item">
+        {% if post.header.teaser %}
+          <div class="archive__item-teaser">
+            <img src="{{ post.header.teaser | relative_url }}" alt="">
+          </div>
+        {% endif %}
+        <h2 class="archive__item-title">
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        {% if post.excerpt %}
+          <p class="archive__item-excerpt">{{ post.excerpt | markdownify }}</p>
+        {% endif %}
+      </article>
+    </div>
+  {% endfor %}
+</div>
