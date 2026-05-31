@@ -2,5 +2,6 @@
 layout: home
 author_profile: true
 entries_layout: list
-# classes: wide
+header:
+  image: /assets/images/fejlec_1.jpg
 ---
