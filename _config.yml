@@ -1,3 +1,4 @@
+repository: "falu/falu.github.io"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 locale: hu-HU
@@ -27,9 +28,14 @@ search_provider: lunr
 future: true
 
 comments:
-  provider: disqus
-  disqus:
-    shortname: falu
+  provider: giscus
+  giscus:
+    repo_id: "R_kgDOSsipIw"
+    category_name: "General"
+    category_id: "DIC_kwDOSsipI84C-Oxw"
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
 
 plugins:
   - jekyll-feed
