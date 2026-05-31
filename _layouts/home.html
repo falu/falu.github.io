@@ -5,7 +5,7 @@ layout: archive
 {{ content }}
 
 {% comment %} Egységes lista: pinneltek elöl, többi dátum szerint {% endcomment %}
-{% assign pinned = paginator.posts | where: "pinned", true %}
+{% assign pinned = paginator.posts | where_exp: "p", "p.pinned == true" %}
 {% assign rest   = paginator.posts | where_exp: "p", "p.pinned != true" %}
 {% assign entries = pinned | concat: rest %}
 
