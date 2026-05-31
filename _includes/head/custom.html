@@ -89,38 +89,3 @@
   font-weight: 600;
 }
 </style>
-
-<script>
-(function () {
-  // A Disqus betöltéskor a fókuszált beviteli mezőre görget.
-  // Ezt megakadályozzuk: amíg a Disqus be nem töltött, elnyeljük az
-  // automatikus görgetést, és visszaállítjuk az eredeti pozíciót.
-  var settle = false;
-
-  function lockPosition() {
-    if (settle) return;
-    var target = window.scrollY;
-    var handler = function () {
-      if (!settle && Math.abs(window.scrollY - target) > 2) {
-        window.scrollTo({ top: target, behavior: 'instant' });
-      }
-    };
-    window.addEventListener('scroll', handler, { passive: false });
-
-    // 4 mp után feloldjuk, hogy a normál görgetés zavartalan legyen
-    setTimeout(function () {
-      settle = true;
-      window.removeEventListener('scroll', handler);
-    }, 4000);
-  }
-
-  if (document.getElementById('disqus_thread') ||
-      document.querySelector('.page__comments')) {
-    if (document.readyState === 'complete') {
-      lockPosition();
-    } else {
-      window.addEventListener('load', lockPosition);
-    }
-  }
-})();
-</script>
