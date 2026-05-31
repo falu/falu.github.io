@@ -30,6 +30,7 @@ comments:
   provider: disqus
   disqus:
     shortname: falu
+    lazy: true
 
 plugins:
   - jekyll-feed
