@@ -13,6 +13,8 @@ Minden egy ártalmatlannak tűnő logfájllal kezdődött.
 
 <!--more-->
 
+<img src="https://github.com/user-attachments/assets/548f8015-741e-4f54-8045-bcf27f467c46" width=100%>
+
 Az `auth.log` percenként ismétlődő sorokkal volt tele:
 
 ```
