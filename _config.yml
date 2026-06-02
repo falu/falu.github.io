@@ -3,7 +3,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: contrast
 locale: hu-HU
 title: Falu:Me
-subtitle: "<beta />
+subtitle: "<beta />"
 logo: "/assets/images/icons8-house-with-a-garden-96.png"
 
 author:
