@@ -1,6 +1,6 @@
 repository: "falu/falu.github.io"
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: default
 locale: hu-HU
 title: Falu:Me
 subtitle: "<beta />"
