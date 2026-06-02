@@ -1,8 +1,9 @@
 repository: "falu/falu.github.io"
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: default
+minimal_mistakes_skin: contrast
 locale: hu-HU
 title: Falu:Me
+subtitle: "<beta />
 logo: "/assets/images/icons8-house-with-a-garden-96.png"
 
 author:
@@ -63,6 +64,7 @@ defaults:
       comments: false
       share: true
       related: true
+      show_date: true
 
 # Bloglista a főoldalon
 paginate: 5
