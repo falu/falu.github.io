@@ -51,6 +51,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Címke- és kategóriaoldalak generálása
 tag_archive:
