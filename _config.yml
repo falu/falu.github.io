@@ -6,6 +6,12 @@ title: Falu:Me
 subtitle: "<beta />"
 logo: "/assets/images/icons8-house-with-a-garden-96.png"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-KY1NFK3B1J"
+    anonymize_ip: false # default
+
 author:
   name: "Falu"
   location: "Pécs, Magyarország"
