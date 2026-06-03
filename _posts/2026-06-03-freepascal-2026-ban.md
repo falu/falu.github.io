@@ -7,13 +7,19 @@ header:
 comments: true
 published: true
 pinned: false
+gallery:
+  - url: https://github.com/user-attachments/assets/b0434f70-dc1f-4d0f-8d7e-653d1a2ba6ab
+    image_path: https://github.com/user-attachments/assets/b0434f70-dc1f-4d0f-8d7e-653d1a2ba6ab
+    alt: "Lazarus IDE"
+    title: "Lazarus IDE"
 ---
 
 Minden évben jön egy új "ez majd mindent megold" nyelv
 
 <!--more-->
 
-<img width="100%" alt="Lazarus IDE" src="https://github.com/user-attachments/assets/b0434f70-dc1f-4d0f-8d7e-653d1a2ba6ab" />
+<!-- <img width="100%" alt="Lazarus IDE" src="https://github.com/user-attachments/assets/b0434f70-dc1f-4d0f-8d7e-653d1a2ba6ab" /> -->
+{% include gallery caption="Lazarus" %}
 
 Idén is tele a Hacker News meg a Reddit a Rusttal, a Pyhtonnal és a Góval. Én meg itt ülök, és egy érett, több tízezer soros desktop alkalmazást fejlesztek FreePascalban - és nem érzem, hogy lemaradtam volna bármiről. Azt is megmondom, hogy miért.
 
