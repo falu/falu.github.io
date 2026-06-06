@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-Ezen az oldalon a saját ilyen-olyan tapasztalataimat véleményemet teszem közzé a számomra érdekesnek vagy fontosnak vélt dolgokról. Klasszikusan ez egy **blog**.
+Ezen az oldalon a saját ilyen-olyan tapasztalataimat, véleményemet teszem közzé a számomra érdekesnek vagy fontosnak vélt dolgokról. Klasszikusan ez egy **blog**.
 
 Nem akar több lenni, jobb lenni, más lenni.
 
