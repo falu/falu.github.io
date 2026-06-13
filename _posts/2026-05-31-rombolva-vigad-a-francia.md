@@ -1,7 +1,7 @@
 ---
 title: "Rombolva vígad a francia"
 date: 2026-05-31 15:32:09 +0200
-tags: [Franciaország, Politka, Foci, BL, Rombolás ]
+tags: [Franciaország, Politika, Foci, BL, Rombolás, Migráció ]
 header:
   teaser: https://github.com/user-attachments/assets/ad795050-40a3-4587-9408-1c33c528b253
 comments: true
