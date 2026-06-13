@@ -3,15 +3,17 @@ title: "Tudjuk kik vagytok"
 date: 2026-06-13 08:52:59 +0200
 tags: [Politika ]
 header:
-  teaser: /assets/images/placeholder.png
+  teaser: /assets/images/91bd252416c34030a264bb598df9247a.jpg
 comments: true
-published: false
+published: true
 pinned: false
 ---
 
 Ti vagytok a felelősök 
 
 <!--more-->
+
+![](/assets/images/91bd252416c34030a264bb598df9247a.jpg)
 
 Ami most jön, azért ti vagytok felelősök, akik változást akarjátok. Ti akiket beszopattak azzal, hogy Orbán maga sátán. Ezt olyan módon be is nyaltátok, hogy ezt a nyilvánvalóan őrültet szavaztátok a helyére.
 
