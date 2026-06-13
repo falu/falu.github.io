@@ -1,7 +1,7 @@
 ---
 title: "Tudjuk kik vagytok"
 date: 2026-06-13 08:52:59 +0200
-tags: [Politika ]
+tags: [Politika, Migráció ]
 header:
   teaser: /assets/images/91bd252416c34030a264bb598df9247a.jpg
 comments: true
