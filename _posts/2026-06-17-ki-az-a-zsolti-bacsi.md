@@ -3,7 +3,7 @@ title: "Ki az a Zsolti bácsi?"
 date: 2026-06-17 13:08:22 +0200
 tags: [Politika]
 header:
-  teaser: https://github.com/user-attachments/assets/183248da-a409-431d-a04b-d3f7b78864be
+  teaser: https://github.com/user-attachments/assets/305aa2ba-4d42-4834-8663-bc0b5c6d204d
 comments: true
 published: true
 pinned: false
