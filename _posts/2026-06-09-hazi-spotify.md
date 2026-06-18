@@ -103,6 +103,23 @@ Pár dolog, amit érdemes az elején elintézni a tartós nyugalomért: a Tailsc
 
 ![A zenei stack architektúrája](/assets/images/zenei-stack-architektura.svg)
 
-Az első beállítás kicsit döcögős volt – ez a self-hosting velejárója –, de utána ez egy "beállítom és elfelejtem" rendszer lett. 
+Az első beállítás kicsit döcögős volt – ez a self-hosting velejárója –, de utána ez egy "beállítom és elfelejtem" rendszer lett.
+
+Spotify előfizetés lemondva. 
 
 🤘
+
+**Update**
+
+Rájöttem, hogyan lehet működésre bírni a Navidrome Last.fm scrobble funcióját! Igazából csak el kellett volna olvasni a dokumentációt.
+
+1. Kell csinálni a Last.fm-en egy API kulcsot: https://www.last.fm/api/account/create
+2. Az API kulcsot és Secretet be kell másolni `/Docker/nacidrome/navidrome.toml` fájlba, vagyhogy így
+```toml
+ND_LASTFM_APIKEY = '1ff2apikey'
+ND_LASTFM_SECRET = 'ca1fsecret'
+```
+3. Navidrome újraindít és a beállításokban már aktív is lesz a *Halgatott számok küldése a Last.fm-nek* opció
+4. Lehet kukázni a Pano Scrobblert
+
+Egyszerűsödött a toolchain, kevesebb a hibaforrás, örülünk.
