@@ -3,7 +3,7 @@ title: "Egy hét Claude Code, ingyen"
 date: 2026-06-21 19:57:15 +0200
 tags: [AI, Claude, Code, Free]
 header:
-  teaser: https://github.com/user-attachments/assets/80492339-e06e-47fd-999c-bacc0af0af5e
+  teaser: https://github.com/user-attachments/assets/552f066c-08f9-4c7d-aca8-a6431b3e676a
 comments: true
 published: true
 pinned: false
@@ -13,8 +13,7 @@ kipróbálnád?
 
 <!--more-->
 
-<img width="100%" alt="Claude Code" src="https://github.com/user-attachments/assets/80492339-e06e-47fd-999c-bacc0af0af5e" />
-
+<img width="100%" alt="Claude Code" src="https://github.com/user-attachments/assets/552f066c-08f9-4c7d-aca8-a6431b3e676a" />
 
 A Claude Code előfizetésemhez kaptam pár vendégbelépőt, amivel egy teljes hétig ingyen kipróbálható az AI-os terminálos fejlesztőasszisztens. Aki kíváncsi rá, jelentkezzen.
 
