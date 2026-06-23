@@ -1,5 +1,5 @@
 ---
-title: "Jó vergódést!"
+title: "Jó vergődést!"
 date: 2026-06-23 23:35:17 +0200
 tags: [Politika]
 header:
