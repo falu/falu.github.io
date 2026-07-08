@@ -5,7 +5,7 @@ tags: [Politika, Önkény]
 header:
   teaser: https://github.com/user-attachments/assets/c3d5a2c4-6d30-4a4e-b94d-efa446d3a1b7
 comments: true
-published: false
+published: true
 pinned: false
 ---
 
